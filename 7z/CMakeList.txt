@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.0)
+project(Compression)
+
+add_executable(compression_example your_cpp_file.cpp)
+
+# 添加bit7z库的引用
+target_link_libraries(compression_example bit7z)
